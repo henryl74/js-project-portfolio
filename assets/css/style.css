@@ -1,0 +1,15 @@
+/* Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@360&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Sans Pro;
+    font-weight: 300;
+    background: #FDFBF9;
+}
