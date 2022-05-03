@@ -4,12 +4,12 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
     text-decoration: none;
-}
-
-body {
-    font-family: Sans Pro;
-    font-weight: 300;
     background: #FDFBF9;
 }
+
+/* Game Area */
+
+
+
