@@ -55,6 +55,32 @@
     opacity: 0;
 }
 
+/* Reset Game Button */
+
+#reset {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition-duration: 0.2s;
+    transition-property: background-color;
+}
+
+#reset:hover {
+    background-color: #B33F40;
+}
+
+#reset:active {
+    background-color: black;
+}
+
 /* Code for when card gets clicked */
 
 .card.clicked {

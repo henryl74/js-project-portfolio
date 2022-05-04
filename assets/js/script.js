@@ -1,4 +1,4 @@
-// Added all initial variables to the DOM to run the game
+// Added all global variables to the DOM to run the game
 
 let counter = 0;
 let firstSelection = "";
