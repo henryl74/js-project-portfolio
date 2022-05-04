@@ -1,6 +1,7 @@
 /* Google font link */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@360&family=Source+Sans+Pro:wght@300&display=swap');
 
+/* Global style */
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@
     text-align: center;
     font-family: sans-pro, sans-serif;
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 50;
 }
 
 /* Game Area */
@@ -33,9 +34,9 @@
 }
 
 .card {
-    height: 110px;
-    width: 90px;
-    background-color: blue;
+    height: 130px;
+    width: 110px;
+    background-color: #4E6CB4;
     border-radius: 10px;
     display: grid;
     place-items: center;
@@ -49,7 +50,7 @@
 
 .card img {
     width: 100%;
-    max-height: 120px;
+    max-height: 200px;
     transition: 0.3s all ease;
     opacity: 0;
 }
@@ -57,13 +58,13 @@
 /* Code for when card gets clicked */
 
 .card.clicked {
-    background-color: black;
+    background-color: #757574;
 }
 
 /* Styling code for card checked to true */
 
 .card.checked {
-    background-color: aqua;
+    background-color: #CFF8F8;
 }
 
 /* making the card visible */
@@ -75,7 +76,7 @@
 /* incorrect card shake styling */
 
 .card.shake {
-    background-color: red;
+    background-color: #B33F40;
     animation: shake 0.5s;
 }
 
