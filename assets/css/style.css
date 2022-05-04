@@ -9,19 +9,21 @@
     background: #FDFBF9;
 }
 
+/* Heading */
+
+.heading {
+    text-align: center;
+    font-family: sans-pro, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
 /* Game Area */
 
 .container {
     display: grid;
     place-items: center;
     min-height: 100vh;
-}
-
-.heading {
-    text-align: center;
-    font-family: sans-pro, sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
 }
 
 .cards {
