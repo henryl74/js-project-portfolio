@@ -50,7 +50,7 @@
 
 .card img {
     width: 100%;
-    max-height: 200px;
+    max-height: 120px;
     transition: 0.3s all ease;
     opacity: 0;
 }
