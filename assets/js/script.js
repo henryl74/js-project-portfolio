@@ -4,6 +4,19 @@ let counter = 0;
 let firstSelection = "";
 let secondSelection = "";
 
+//Added function for the game reset button
+
+restartGameButton = document.getElementById("restartGameButton");
+
+restartGameButton.addEventListener("click", function(){
+    resetGame();
+});
+function resetGame() {
+    location.reload("restartGameButton");
+}
+
+//Added variables 
+
 const cards = document.querySelectorAll(".cards .card");
 cards.forEach((card) => {
     card.addEventListener("click", () => {

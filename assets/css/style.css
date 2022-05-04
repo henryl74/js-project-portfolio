@@ -57,7 +57,7 @@
 
 /* Reset Game Button */
 
-#reset {
+#restartGameButton {
     position: absolute;
     top: 30px;
     right: 30px;
@@ -73,11 +73,11 @@
     transition-property: background-color;
 }
 
-#reset:hover {
+#restartGameButton:hover {
     background-color: #B33F40;
 }
 
-#reset:active {
+#restartGameButton:active {
     background-color: black;
 }
 
