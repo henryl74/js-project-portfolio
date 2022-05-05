@@ -26,8 +26,8 @@
     top: 30px;
     right: 30px;
     font-size: 20px;
-    background-color: gray;
-    color: white;
+    background-color: #757574;
+    color: #FDFBF9;
     padding: 8px 10px;
     border: none;
     border-radius: 5px;
@@ -93,22 +93,23 @@
     background-color: #CFF8F8;
 }
 
-/* making the card visible */
+/* Making the card visible */
 
 .card.clicked img, .card.checked img {
     opacity: 1;
 }
 
-/* incorrect card shake styling */
+/* Incorrect card shake styling */
 
 .card.shake {
     background-color: #B33F40;
     animation: shake 0.5s;
 }
 
-/* key frames shake animation */
+/* Keyframes shake animation */
 
 @keyframes shake {
+
     0% {
         transform: translate(1px, 1px) rotate(0deg);
     }
