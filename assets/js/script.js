@@ -8,9 +8,10 @@ let secondSelection = "";
 
 restartGameButton = document.getElementById("restartGameButton");
 
-restartGameButton.addEventListener("click", function(){
+restartGameButton.addEventListener("click", function () {
     resetGame();
 });
+
 function resetGame() {
     location.reload("restartGameButton");
 }
@@ -22,14 +23,14 @@ cards.forEach((card) => {
     card.addEventListener("click", () => {
         card.classList.add("clicked");
 
-        if(counter === 0) {
+        if (counter === 0) {
             firstSelection = card.getAttribute("film");
             counter++;
         } else {
             secondSelection = card.getAttribute("film");
             counter = 0;
 
-            if(firstSelection === secondSelection) {
+            if (firstSelection === secondSelection) {
                 const correctCards = document.querySelectorAll(".card[film='" + firstSelection + "']");
 
                 correctCards[0].classList.add("checked");
