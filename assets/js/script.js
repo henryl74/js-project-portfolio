@@ -1,10 +1,15 @@
-// Added all global variables to the DOM to run the game
+// Added initial block variables to the DOM to run the game
+
+/**
+ * Set a variable for counter
+ * Set two varibles to hold first and second selection
+ */
 
 let counter = 0;
 let firstSelection = "";
 let secondSelection = "";
 
-//Added function for the game reset button
+// Added function for the game reset button
 
 restartGameButton = document.getElementById("restartGameButton");
 
@@ -16,12 +21,20 @@ function resetGame() {
     location.reload("restartGameButton");
 }
 
-//Added variables 
+// Set a block variable to sellect all the cards 
 
 const cards = document.querySelectorAll(".cards .card");
 cards.forEach((card) => {
     card.addEventListener("click", () => {
         card.classList.add("clicked");
+
+        /**
+         * Set the counter for firstSelection and secondSelection  
+         * Added condition to check matching cards
+         * Added array to hold checked correct and incorrect cards
+         * Added a class to shake incorrect cards
+         * setTimeout function for incorrect cards
+         */
 
         if (counter === 0) {
             firstSelection = card.getAttribute("film");
@@ -48,10 +61,9 @@ cards.forEach((card) => {
                     incorrectCards[0].classList.remove("clicked");
                     incorrectCards[1].classList.remove("shake");
                     incorrectCards[1].classList.remove("clicked");
-                }, 800);
+                }, 500);
             }
         }
-
 
     });
 });
