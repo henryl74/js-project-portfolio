@@ -154,3 +154,19 @@
     }
 
 }
+
+/* Media queries */
+
+@media (max-width: 320px) {
+    .container {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 414px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
