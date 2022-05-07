@@ -37,14 +37,14 @@ cards.forEach((card) => {
          */
 
         if (counter === 0) {
-            firstSelection = card.getAttribute("id");
+            firstSelection = card.getAttribute("class");
             counter++;
         } else {
-            secondSelection = card.getAttribute("id");
+            secondSelection = card.getAttribute("class");
             counter = 0;
 
             if (firstSelection === secondSelection) {
-                const correctCards = document.querySelectorAll(".card[id='" + firstSelection + "']");
+                const correctCards = document.querySelectorAll(".card[class='" + firstSelection + "']");
 
                 correctCards[0].classList.add("checked");
                 correctCards[0].classList.remove("clicked");
