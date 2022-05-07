@@ -79,13 +79,13 @@
     opacity: 0;
 }
 
-/* Code for when card gets clicked */
+/* Set background for clicked card */
 
 .card.clicked {
     background-color: #757574;
 }
 
-/* Styling code for card checked to true */
+/* Set background for checked card */
 
 .card.checked {
     background-color: #CFF8F8;
@@ -93,12 +93,15 @@
 
 /* Making the card visible */
 
-.card.clicked img,
+.card.clicked img {
+    opacity: 1;
+}
+
 .card.checked img {
     opacity: 1;
 }
 
-/* Incorrect card shake styling */
+/* Incorrect card shake style and animation */
 
 .card.shake {
     background-color: #B33F40;
