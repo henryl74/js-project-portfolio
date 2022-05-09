@@ -11,7 +11,7 @@ let secondSelection = "";
 
 // Added function for the game reset button
 
-restartGameButton = document.getElementById("restartGameButton");
+let restartGameButton = document.getElementById("restartGameButton");
 
 restartGameButton.addEventListener("click", function () {
     resetGame();
