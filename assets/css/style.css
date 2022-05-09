@@ -185,23 +185,24 @@
 
     .cards {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 1.5em;
-        height: 250px;
+        height: 280px;
     }
 }
 
-/* For large to medium screens sizes from 1200px wide and down */
+/* For large to medium screens sizes from 992px wide and down */
 
-@media (max-width: 1200px) {
+@media (min-width: 992px) {
     .container {
-        width: 100%;
+        width: 90%;
+        height: auto;
+        margin: auto;
     }
 
     .cards {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 2em;
-        height: 250px;
     }
 }
