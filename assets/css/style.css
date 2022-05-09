@@ -176,6 +176,8 @@
     }
 }
 
+/* For small screens sizes from 576px wide and down */
+
 @media (max-width: 576px) {
     .container {
         width: 100%;
@@ -183,7 +185,23 @@
 
     .cards {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 1.5em;
+        height: 250px;
+    }
+}
+
+/* For large to medium screens sizes from 1200px wide and down */
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2em;
+        height: 250px;
     }
 }
