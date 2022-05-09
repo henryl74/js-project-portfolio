@@ -172,6 +172,7 @@
 @media (max-width: 320px) {
     .container {
         height: 70vh;
+        width: fit-content;
     }
 }
 
