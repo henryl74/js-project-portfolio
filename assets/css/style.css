@@ -19,6 +19,15 @@
     font-weight: 50;
 }
 
+/* Paragraph */
+
+.paragraph {
+    text-align: center;
+    font-family: sans-pro, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 30;
+}
+
 /* Reset Game Button */
 
 #restartGameButton {
