@@ -44,7 +44,7 @@ cards.forEach((card) => {
             counter = 0;
 
             if (firstSelection === secondSelection) {
-                const correctCards = document.querySelectorAll(".card[class='" + firstSelection + "']");
+                const correctCards = document.querySelectorAll(".card[class='" + secondSelection + "']");
 
                 correctCards[0].classList.add("checked");
                 correctCards[0].classList.remove("clicked");

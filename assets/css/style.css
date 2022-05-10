@@ -125,7 +125,7 @@
 
 .card.shake {
     background-color: #B33F40;
-    animation: shake 0.5s;
+    animation: shake 0.3s;
 }
 
 /* Keyframes shake animation */
