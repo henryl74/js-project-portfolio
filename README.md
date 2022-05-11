@@ -88,4 +88,42 @@ My project consists of one main webpage with the following features:
 
 ### Firefox Mobile Browser
 
-![Screenshot from Firefox Mobile Browser](docs/firefox_mobile_browser.jpg)
+![Screenshot from Firefox Mobile Browser](docs/firefox_mobile_browser.jpeg)
+
+# Bugs
+
+### Solved bugs
+
+- While testing my html code in W3C, I noticed there was a problem with my div due a duplicate ID for each duplicate card created for the game.
+
+![Screenshot from the error message](docs/div_w3c_error.jpeg)
+
+- I solved this by replacing the ID, and added their value to the existing class attribute of my div as per the below example:
+
+![Screenshot from the div class attribute](docs/div_error_fixed.png)
+
+### Unfixed Bugs
+
+- Due to time constraints I could not test the site for all type of mobile phones, the site works very well in most mobile standard devices, laptops and desktop computer.
+
+
+# Validator Testing
+---
+
+## HTML
+
+- The first time I run the html in W3C, it returned with a few errors encountered in my divs due duplicate IDs encountered in the duplicate cards of my html file, I fixed this as per the solved bugs explenation; run the html files again and this time no errors were returned when passing through the official W3C validator.
+
+![Screenshot from W3C validator](docs/W3C_index_html.png)
+
+## CSS
+
+- No errors were found when passing through the official (Jigsaw) validator.
+
+![W3C CSS Validator screenshot](docs/W3C_css_validator.png)
+
+## JavaScript
+
+- No errors were found when passing through the official JSHint JavaScript Validator
+
+![JSHint validator screenshot](docs/JSHint_%20javascript_validator.jpeg)
