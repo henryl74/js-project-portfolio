@@ -77,6 +77,7 @@ My project consists of one main webpage with the following features:
 - I confirmed that the game results are always correct.
 - I confirmed that the welcome message, header, paragraph, reset button, are all readable and easy to understand.
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the DevTools device toolbar.
+- Due to time constraints I could not test the site for all type of mobile phones, the site works very well in most mobile standard devices, laptops and desktop computer.
 
 ### Google Chrome Browser
 
@@ -106,7 +107,7 @@ My project consists of one main webpage with the following features:
 
 ### Unfixed Bugs
 
-- Due to time constraints I could not test the site for all type of mobile phones, the site works very well in most mobile standard devices, laptops and desktop computer.
+- There are not unfixed bugs left for this game, as far I could check.
 
 
 # Validator Testing
@@ -151,7 +152,7 @@ The site was deployed to GitHub pages. The steps I followed are:
 - In the GitHub repository, I navigate to the Settings tab.
 - Under General I selected the GitHub Pages section, clicked on the pages settings dedicated tab link.
 - From the source section drop-down menu, I selected the Main Branch then clicked on save.
-- Once the Main Branch has been selected and saved, the page provided the link to the published website.
+- Once the Main Branch has been selected and saved, the page will be automatically refreshed and provide the link to the published website.
 
 The live link ca be found here: [Studio Ghibli - Memory Game](https://henryl74.github.io/studio-ghibli-memory-game/)
 
@@ -160,11 +161,12 @@ The live link ca be found here: [Studio Ghibli - Memory Game](https://henryl74.g
 ## Content
 
 - The idea for the layout of the game came from the Code Institute Love Maths module. I had no previous experience building a game using JavaScript; and doing this project before anything was a huge help, thank you Code Institute.
-- More inspiration came from the porffolio project scope module about building a game called Rock Paper Scissors as well.
-- I checked for reference from all previous projects about quizzes and games posted in slack channel.
+- Additional inspiration came from the porffolio project scope module about building a game called Rock Paper Scissors as well.
+- I checked for all kind of reference from previous projects about quizzes and games posted in slack channel.
 - W3 schools tutorial about how How TO - Flip Card [W3 schools](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 - Intro to CSS 3D transforms - Card Flip [Intro to CSS 3D transforms](https://3dtransforms.desandro.com/card-flip)
 - Maria del Carmen Santiago - Multi-faced Flip Card with a Click (Part 3: JavaScript) [Maria del Carmen Santiago](https://dev.to/santiagocodes/multi-faced-flip-card-with-a-click-part-3-javascript-2f7f)
+- Build 30 things with vanilla JS in 30 days with 30 tutorials [JavaScript 30](https://javascript30.com/)
 - A big thank you to my little daughter for inspiring me to do this game, and for giving me the main subject idea from studio ghibli; we both love these films.
 
 ## Media
@@ -176,7 +178,7 @@ The live link ca be found here: [Studio Ghibli - Memory Game](https://henryl74.g
 - The README template provided y Code Institute on the full sample README from "Portfolio Project Scope".
 - The online tutors for all their help.
 - The Code Institute slack community.
-- Online tutorials about HTML and CSS.
+- Stack Overflow question and answer website.
 - My classmates: Tasha Johnson and Usman Khan for their constant support and encouragement.
 - My new mentor Chris Quinn, big thank you for all your positive feedback and guidance given. 
 - Last but not least Code Institute student support team, for listening to my concerns and support given.
