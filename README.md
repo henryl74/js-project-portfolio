@@ -42,7 +42,7 @@ My project consists of one main webpage with the following features:
 
 ### - The Paragraph
 
-- Featured below the header, the paragraph main purpose is to explain the main rule of the game to the payer.
+- Featured below the header, the paragraph main purpose is to explain the main rule of the game to the player.
 
 ![Screenshot from the paragraph](docs/screenshot_paragraph.png)
 
@@ -154,7 +154,7 @@ The site was deployed to GitHub pages. The steps I followed are:
 - From the source section drop-down menu, I selected the Main Branch then clicked on save.
 - Once the Main Branch has been selected and saved, the page will be automatically refreshed and provide the link to the published website.
 
-The live link ca be found here: [Studio Ghibli - Memory Game](https://henryl74.github.io/studio-ghibli-memory-game/)
+The live link can be found here: [Studio Ghibli - Memory Game](https://henryl74.github.io/studio-ghibli-memory-game/)
 
 # Credits
 
@@ -167,11 +167,12 @@ The live link ca be found here: [Studio Ghibli - Memory Game](https://henryl74.g
 - Intro to CSS 3D transforms - Card Flip [Intro to CSS 3D transforms](https://3dtransforms.desandro.com/card-flip)
 - Maria del Carmen Santiago - Multi-faced Flip Card with a Click (Part 3: JavaScript) [Maria del Carmen Santiago](https://dev.to/santiagocodes/multi-faced-flip-card-with-a-click-part-3-javascript-2f7f)
 - Build 30 things with vanilla JS in 30 days with 30 tutorials [JavaScript 30](https://javascript30.com/)
-- A big thank you to my little daughter for inspiring me to do this game, and for giving me the main subject idea from studio ghibli; we both love these films.
+- A big thank you to my little daughter for inspiring me to do this game, and for giving me the main subject idea from Studio Ghibli; we both love these books and films.
 
 ## Media
 
 - The images used for the game have been made available to fans free of charge from Studio Ghibli official website [Studio Ghibli](https://www.ghibli.jp/info/013344/)
+- Favicon image attributed to Freepik [Freepik](https://www.flaticon.com/packs/origami-28)
 
 ## Acknowledgements
 
