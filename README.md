@@ -172,6 +172,7 @@ The live link can be found here: [Studio Ghibli - Memory Game](https://henryl74.
 ## Media
 
 - The images used for the game have been made available to fans free of charge from Studio Ghibli official website [Studio Ghibli](https://www.ghibli.jp/info/013344/)
+- The black and white Totoro image was available free of charge at KindPNG [KindPNG](https://www.kindpng.com/downpng/oJTRom_official-studio-ghibli-logo-hd-png-download/)
 - Favicon image attributed to Freepik [Freepik](https://www.flaticon.com/packs/origami-28)
 
 ## Acknowledgements
